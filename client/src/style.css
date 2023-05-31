@@ -1,0 +1,47 @@
+* {
+	margin: 0;
+	padding: 0;
+	max-width: 100%;
+	box-sizing: border-box;
+	font-family: "Muli", sans-serif;
+}
+
+#app {
+	width: 100vw;
+	height: 100vh;
+	/* margin: auto; */
+	background-color: #e2e8f0;
+}
+
+.container {
+	width: 40vw;
+	height: 300px;
+	border: 1px solid black;
+	border-radius: 0.8em;
+	box-shadow: 0 1px 2px 2px rgba(0, 0, 0, 0.1);
+	background-color: #fff;
+	padding: 2em;
+}
+
+.title {
+	font-size: 2.5em;
+	font-weight: 600;
+}
+
+label {
+	display: flex;
+	flex-direction: column;
+	letter-spacing: 0.05rem;
+	font-size: .8em;
+	font-weight: 400;
+	color: #222;
+}
+
+input {
+	padding: 10px 0;
+	border-radius: 0.125rem;
+	border: 1px solid rgb(226, 232, 240);
+	background-color: #fdfdfe;
+	padding-inline-start: 0.75rem;
+	font-size: 0.875rem;
+}
